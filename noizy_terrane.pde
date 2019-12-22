@@ -14,7 +14,7 @@ void draw() {
   pushMatrix();
   rotateX(radians(45));
   rotateZ(radians(0));
-  translate(width, 0, 10);
+  translate(width, 0, -10);
   background(20);
   xoff = 0.0;
   for (int x = -1*width; x < width; x+=4) {
